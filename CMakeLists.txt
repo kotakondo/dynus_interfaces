@@ -9,12 +9,15 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PWPTraj.msg"
   "msg/CoeffPoly3.msg"
   "msg/DynTraj.msg"
-  DEPENDENCIES std_msgs
+  "msg/State.msg"
+  "msg/Goal.msg"
+  DEPENDENCIES std_msgs geometry_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
