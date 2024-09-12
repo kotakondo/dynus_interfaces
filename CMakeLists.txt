@@ -17,6 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DynTraj.msg"
   "msg/State.msg"
   "msg/Goal.msg"
+  "msg/Mode.msg"
+  "srv/FlightCommand.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
