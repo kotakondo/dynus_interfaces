@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PWPTraj.msg"
   "msg/CoeffPoly3.msg"
   "msg/DynTraj.msg"
+  "msg/DynTrajArray.msg"
   "msg/State.msg"
   "msg/Goal.msg"
   "msg/Mode.msg"
