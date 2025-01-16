@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Goal.msg"
   "msg/Mode.msg"
   "msg/YawOutput.msg"
+  "msg/PNAdaptation.msg"
   "srv/FlightCommand.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
