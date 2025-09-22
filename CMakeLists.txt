@@ -12,7 +12,9 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/QuinticPWPTraj.msg"
   "msg/PWPTraj.msg"
+  "msg/QuinticCoeffPoly3.msg"
   "msg/CoeffPoly3.msg"
   "msg/DynTraj.msg"
   "msg/DynTrajArray.msg"
