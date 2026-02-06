@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DynTrajArray.msg"
   "msg/State.msg"
   "msg/Goal.msg"
+  "msg/Trajectory.msg"
   "msg/Mode.msg"
   "msg/YawOutput.msg"
   "msg/PNAdaptation.msg"
