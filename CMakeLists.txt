@@ -24,9 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Mode.msg"
   "msg/YawOutput.msg"
   "msg/PNAdaptation.msg"
+  "msg/ComputationTimes.msg"
   "srv/FlightCommand.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
-
-ament_export_dependencies(rosidl_default_runtime)
-ament_package()
