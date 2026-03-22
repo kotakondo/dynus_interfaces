@@ -28,3 +28,5 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FlightCommand.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
+
+ament_package()
