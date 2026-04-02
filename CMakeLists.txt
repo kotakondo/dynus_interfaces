@@ -25,6 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/YawOutput.msg"
   "msg/PNAdaptation.msg"
   "msg/ComputationTimes.msg"
+  "msg/SpeedyPath.msg"
   "srv/FlightCommand.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
